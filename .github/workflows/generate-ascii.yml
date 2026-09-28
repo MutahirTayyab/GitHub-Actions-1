@@ -27,15 +27,13 @@ jobs:
 
 
     deploy_job_3:
-    runs_on: ubuntu_latest
-    steps:
-    -  name: Read File
-       run: cat dragon.txt
-
-    -  name: Deploy
-       run: echo "Deploying......................"
-
-
+        runs_on: ubuntu_latest
+        steps:
+        -  name: Read File
+           run: cat dragon.txt
+           
+        -  name: Deploy
+           run: echo "Deploying......................"
 
 
 
@@ -52,7 +50,9 @@ jobs:
 
 
 
-       
+
+
+
     #ascii_job:
         #runs-on: ubuntu-latest
         #steps: 
